@@ -1,0 +1,43 @@
+{
+  "name": "alax",
+  "description": "alax - JavaScript spreadsheet building library with support of Excel",
+  "version": "0.0.1",
+  "author": "Andrey Gershun <agershun@gmail.com>",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "engines": [
+    "node"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/agershun/alax.git"
+  },
+  "bugs": {
+    "url": "https://github.com/agershun/alax/issues"
+  },
+  "bin" : { 
+  },
+  "homepage": "https://github.com/agershun/alax",
+  "main": "alax.js",
+  "scripts": {
+    "test": "cd test && mocha ."
+  },
+  "keywords": [
+    "excel",
+    "alasql",
+    "javascript",
+    "export",
+    "data",
+    "query",
+    "JSON",
+    "Excel",
+    "XLSX",
+    "XLS",
+    "CSV",
+    "TSV",
+    "template"
+  ],
+  "license": "MIT"
+}
