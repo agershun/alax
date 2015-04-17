@@ -14,7 +14,7 @@ gulp.task('js-merge', function () {
   return gulp.src([
     './src/05copyright.js', 
   	'./src/10start.js', 
-  	'./src/15utils.js', 
+  	'./src/15utility.js', 
     './src/97saveas.js',
     './src/FileSaver.js',
    	'./src/98finish.js',

@@ -1,21 +1,10 @@
 var alax = require('../dist/alax.js');
 
 describe('Test001 - AlaX prototype',function(){
-	it('1. Simple parameters', function(){
-		var res = alax(123);
-		assert.deepEqual(res,{
-			sheets: [
-				{
-					sheetid: 'Sheet1',
-					cells: {
-						{x:1}
-					}
-				}
-			]
-		});
-		alax([[data]],opts,format,filename);
+	it('1. Save simple XLS/HTM file', function(done){
+		var res = alax([{a:1,b:10},{a:2,b:20}],"restest001.xlsx");
+		assert(res == 1);
+		done();
 	});
 });
 
-alasql('SELECT * INTO ALAX("mydata.xlsx") FROM ?',[data]);
-alax([[1,2,3],[5,6,7]],{columns:[1,2,3]},'mydata.xlsx');
