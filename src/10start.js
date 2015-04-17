@@ -43,3 +43,6 @@ var alax = function(data,filename,opts,cb){
 /** Current version of alasql */
 alax.version = "0.0.1";
 
+// Array of into functions
+alax.into = {};
+
