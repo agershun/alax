@@ -20,7 +20,7 @@
   "bin" : { 
   },
   "homepage": "https://github.com/agershun/alax",
-  "main": "alax.js",
+  "main": "dist/alax.js",
   "scripts": {
     "test": "cd test && mocha ."
   },
