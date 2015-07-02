@@ -1,7 +1,7 @@
 
 
 // Generate HTM file
-alax.into.XLSH = function(data,opts) {
+alax.into.XLSX = function(data,opts) {
 	// Set sheets
 	var sheets = {};
 	if(opts && opts.sheets) {
