@@ -1,7 +1,7 @@
 //
 // alax.js
-// AlaX - JavaScript Spreadsheet Building Library
-// Date: 17.04.2015
+// Alax - JavaScript OLAP server for Node.js
+// Date: 02.07.2015
 // Version: 0.0.1
 // (c) 2015, Andrey Gershun
 //

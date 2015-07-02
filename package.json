@@ -1,6 +1,6 @@
 {
   "name": "alax",
-  "description": "alax - JavaScript spreadsheet building library with support of Excel",
+  "description": "alax - JavaScript OLAP server for Node.js",
   "version": "0.0.1",
   "author": "Andrey Gershun <agershun@gmail.com>",
   "directories": {
@@ -25,19 +25,10 @@
     "test": "cd test && mocha ."
   },
   "keywords": [
-    "excel",
-    "alasql",
+    "OLAP",
+    "database",
     "javascript",
-    "export",
-    "data",
-    "query",
-    "JSON",
-    "Excel",
-    "XLSX",
-    "XLS",
-    "CSV",
-    "TSV",
-    "template"
+    "MDX"
   ],
   "license": "MIT"
 }

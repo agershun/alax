@@ -1,2 +1,10 @@
-# alax
-Alax.js - JavaScript spreadsheet build library with support of Excel
+# Alax - lightweight JavaScript OLAP server for Node.js
+
+Sorry, work in progress.
+
+## Installation
+
+```bash
+    npm install alax
+```
+
